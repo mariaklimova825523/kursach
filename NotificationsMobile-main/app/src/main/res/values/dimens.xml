@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="remove_button_size">24dp</dimen>
+    <dimen name="bottom_menu_button_height">48dp</dimen>
+</resources>

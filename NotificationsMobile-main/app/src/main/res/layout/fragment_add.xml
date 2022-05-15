@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F1FC"
+    android:orientation="vertical"
+    tools:context=".fragment_add">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="@string/add_big_text"
+        android:textAlignment="center"
+
+        android:textColor="#5B5B5B"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/add_small_text"
+        android:textAlignment="center"
+        android:textColor="#5B5B5B"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nameTe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название подписки" />
+
+    <EditText
+        android:id="@+id/infoTe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание подписки"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/priceTe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Цена"
+            android:minHeight="48dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/dateTe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Дата"
+            android:minHeight="48dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addToDbButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9862D3"
+        android:text="Добавить"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
+
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SubMon</string>
+    <string name="button_all_text">All</string>
+    <string name="button_list_text">Add</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_big_text">Список ваших\nподписок</string>
+    <string name="home_small_text">Здесь вы можете увидеть список\nваших платных подписок</string>
+    <string name="add_big_text">Добавление подписок</string>
+    <string name="add_small_text">Добавляя подписку, вы точно не забудете ее оплатить, ведь мы вовремя пришлем вам уведомление!</string>
+</resources>
